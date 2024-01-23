@@ -49,27 +49,29 @@ class AboutViewController : UIViewController, UITextViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        versionLabel.text = "FreeOTP \(appVersion)"
+        versionLabel.text = "TitleOTP \(appVersion)"
         versionLabel.font = UIFont.boldSystemFont(ofSize: 28.0)
 
         aboutTextView.delegate = self
         aboutTextView.text = """
-        2013-2020 - Red Hat, Inc., et al.
-
-        FreeOTP is licensed under Apache 2.0
+        Razi Title, Inc. 
+        
+        Custom Version of FreeOTP
+        This application is a modified version of FreeOTP, originally developed by Red Hat, Inc., et al. 
+        Our modifications are specifically tailored for use at Razi Title, Inc.
+        
+        Original Copyright: 2013-2020 - Red Hat, Inc., et al.
+        FreeOTP is licensed under the Apache License, Version 2.0 (the "License")
 
         For more information, see our website
 
         We welcome your feedback
-        - Report a Problem
-        - Ask for Help
+        - Report a Problem at support@raziexchange.com
         """
 
         aboutTextView.addHyperLinksToText(originalText: aboutTextView.text,
                                           hyperLinks:
             ["Apache 2.0": "https://www.apache.org/licenses/LICENSE-2.0.html",
-             "website": "https://freeotp.github.io",
-             "Report a Problem": "https://github.com/freeotp/freeotp-ios/issues",
-             "Ask for Help": "https://lists.fedorahosted.org/mailman/listinfo/freeotp-devel"])
+             "website": "www.raziexchange.com/titleotp"])
     }
 }

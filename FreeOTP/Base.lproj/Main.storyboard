@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1u3-cr-3fz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1u3-cr-3fz">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +13,7 @@
             <objects>
                 <navigationController definesPresentationContext="YES" id="1u3-cr-3fz" customClass="MainNavigationController" customModule="FreeOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1as-Cr-LV1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="yVd-7e-eOB">
@@ -33,7 +32,7 @@
             <objects>
                 <collectionViewController storyboardIdentifier="tokens" autoresizesArchivedViewToFullSize="NO" title="FreeOTP" id="mGg-KB-Kzc" customClass="TokensViewController" customModule="FreeOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="OKL-u6-vWf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RsW-0j-aHU">
@@ -50,7 +49,7 @@
                     </collectionView>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="FreeOTP" id="L5z-P6-1cO">
+                    <navigationItem key="navigationItem" title="TitleOTP" id="L5z-P6-1cO">
                         <rightBarButtonItems>
                             <barButtonItem title="About" image="info.circle" catalog="system" id="08x-7R-jHE">
                                 <connections>
@@ -89,7 +88,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shareRow" id="Mf6-nW-1Zf">
-                                <rect key="frame" x="0.0" y="49.5" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mf6-nW-1Zf" id="KeR-bk-SlQ">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -149,13 +148,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MoQ-xR-dvk">
                                 <rect key="frame" x="16" y="70" width="343" height="416.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FreeOTP Version X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YN2-ec-eZg">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleOTP Version X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YN2-ec-eZg">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="FreeOTP About Information, set programmatically" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9z1-D9-WpZ">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="TitleOTP About Information, set programmatically" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9z1-D9-WpZ">
                                         <rect key="frame" x="0.0" y="28.5" width="343" height="388"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
@@ -209,7 +208,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Fo9-5C-s8b">
-                                <rect key="frame" x="37.5" y="64" width="300" height="298"/>
+                                <rect key="frame" x="37.5" y="84" width="300" height="305"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="jdoe@example.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g2p-Bs-aav">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="34"/>
@@ -274,16 +273,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="53J-Un-NcJ">
-                                        <rect key="frame" x="0.0" y="224" width="300" height="31"/>
+                                        <rect key="frame" x="0.0" y="224" width="300" height="34.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algorithm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMa-wL-TvX">
-                                                <rect key="frame" x="0.0" y="5.5" width="74" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="7" width="74" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5c-lT-5na">
-                                                <rect key="frame" x="94" y="0.0" width="206" height="31"/>
+                                                <rect key="frame" x="94" y="0.0" width="206" height="34.5"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
                                                     <action selector="algorithmTapped:" destination="r2L-NF-ZcI" eventType="touchUpInside" id="z91-DU-MQk"/>
@@ -292,16 +291,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xbk-Ao-5nd">
-                                        <rect key="frame" x="0.0" y="267" width="300" height="31"/>
+                                        <rect key="frame" x="0.0" y="270.5" width="300" height="34.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interval" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPe-mF-g48">
-                                                <rect key="frame" x="0.0" y="5.5" width="74" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="7" width="74" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tq9-2D-pvV">
-                                                <rect key="frame" x="94" y="0.0" width="206" height="31"/>
+                                                <rect key="frame" x="94" y="0.0" width="206" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
@@ -431,12 +430,12 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="YCg-lS-8Wu"/>
-                                <exclude reference="DMb-zO-8qE"/>
-                                <exclude reference="IgQ-Ni-2IH"/>
-                                <exclude reference="NMJ-V1-7CY"/>
-                                <exclude reference="gp7-Ba-b0r"/>
                                 <exclude reference="ojh-Eq-AQ8"/>
                                 <exclude reference="tjk-43-Pb5"/>
+                                <exclude reference="NMJ-V1-7CY"/>
+                                <exclude reference="gp7-Ba-b0r"/>
+                                <exclude reference="IgQ-Ni-2IH"/>
+                                <exclude reference="DMb-zO-8qE"/>
                             </mask>
                         </variation>
                     </view>
@@ -459,7 +458,7 @@
                 <navigationController storyboardIdentifier="scanNav" automaticallyAdjustsScrollViewInsets="NO" id="9fw-0g-bOW" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pYc-4d-D3C">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -477,7 +476,7 @@
                 <navigationController storyboardIdentifier="shareNav" automaticallyAdjustsScrollViewInsets="NO" id="R5J-QJ-ekx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nOI-pk-hyc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -502,7 +501,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="pQa-Lk-vD0">
-                                <rect key="frame" x="64" y="111" width="246.5" height="209"/>
+                                <rect key="frame" x="64" y="131" width="246.5" height="209"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your token provider has  not configured the issuer  field, please enter the name  of the issuer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rk9-rR-33m">
                                         <rect key="frame" x="0.0" y="0.0" width="246.5" height="95.5"/>
@@ -561,16 +560,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="9MZ-2k-z7H">
-                                <rect key="frame" x="15.5" y="63" width="338.5" height="336"/>
+                                <rect key="frame" x="15.5" y="83" width="338.5" height="336"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FreeOTP can give you extra security by requiring you to unlock your phone in order to activate the token" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHf-4L-fxI">
-                                        <rect key="frame" x="3" y="0.0" width="332.5" height="75.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleOTP can give you extra security by requiring you to unlock your phone in order to activate the token" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHf-4L-fxI">
+                                        <rect key="frame" x="3.5" y="0.0" width="331.5" height="75.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmH-2l-lgf">
-                                        <rect key="frame" x="3" y="102.5" width="332.5" height="175.5"/>
+                                        <rect key="frame" x="3.5" y="102.5" width="331.5" height="175.5"/>
                                         <string key="text">Do you want to require a phone unlock in order to activate this token?
 
 WARNING: Locked tokens are *not* included in backups for security reasons</string>
@@ -765,19 +764,19 @@ WARNING: Locked tokens are *not* included in backups for security reasons</strin
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="aaa-ql-u9i">
-                                <rect key="frame" x="70" y="50" width="235" height="517"/>
+                                <rect key="frame" x="70" y="70" width="235" height="497"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="We found an icon for you!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbG-qQ-0km">
-                                        <rect key="frame" x="0.0" y="0.0" width="235" height="501"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="235" height="481"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vGT-d7-acJ">
-                                        <rect key="frame" x="0.0" y="517" width="235" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="497" width="235" height="0.0"/>
                                     </imageView>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mip-GR-fQN">
-                                        <rect key="frame" x="0.0" y="517" width="235" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="497" width="235" height="0.0"/>
                                         <color key="backgroundColor" systemColor="linkColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -825,7 +824,7 @@ WARNING: Locked tokens are *not* included in backups for security reasons</strin
                 <navigationController storyboardIdentifier="newNav" automaticallyAdjustsScrollViewInsets="NO" id="Pb8-KR-nIx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EUe-ev-vVp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -839,7 +838,7 @@ WARNING: Locked tokens are *not* included in backups for security reasons</strin
         </scene>
     </scenes>
     <resources>
-        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="qrcode.png" width="20" height="20"/>
         <systemColor name="labelColor">

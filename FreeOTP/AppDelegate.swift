@@ -29,6 +29,10 @@ class AppDelegate : UIResponder, UIApplicationDelegate {
         if let window = UIApplication.shared.windows.first as UIWindow? {
             window.backgroundColor = UIColor.app.background
         }
+
+        // Introduce a delay of 2 seconds to show Launch / Splash screen
+        sleep(2)
+        
         return true
     }
 

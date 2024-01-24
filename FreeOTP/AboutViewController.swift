@@ -54,24 +54,35 @@ class AboutViewController : UIViewController, UITextViewDelegate {
 
         aboutTextView.delegate = self
         aboutTextView.text = """
-        Razi Title, Inc. 
-        
-        Custom Version of FreeOTP
-        This application is a modified version of FreeOTP, originally developed by Red Hat, Inc., et al. 
-        Our modifications are specifically tailored for use at Razi Title, Inc.
-        
-        Original Copyright: 2013-2020 - Red Hat, Inc., et al.
-        FreeOTP is licensed under the Apache License, Version 2.0 (the "License")
+        TitleOTP by Razi Title, Inc.
 
-        For more information, see our website
+        This application is a custom adaptation of FreeOTP, which was initially developed by Red Hat, Inc. now IBM, among others. Our customizations make it ideally suited for the unique operational requirements of the real estate title community.
 
-        We welcome your feedback
-        - Report a Problem at support@raziexchange.com
+        Original Copyright Notice:
+        2013-2020 - Red Hat, Inc., and other original authors.
+
+        License Information:
+        FreeOTP is licensed under the Apache License, Version 2.0 (the "License"), which is available at http://www.apache.org/licenses/LICENSE-2.0
+
+        Disclaimer of Warranty:
+        This software is provided by Razi Title, Inc., "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall Razi Title, Inc., its affiliates, or its licensors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+        Limitation of Liability:
+        Neither Razi Title, Inc., nor any of its affiliates, shall be liable for any damages of any kind resulting from the use or inability to use this software, including but not limited to direct, indirect, incidental, punitive, and consequential damages.
+
+        TitleOTP® is a registered trademark of Razi Title, Inc. All rights reserved. The use of the TitleOTP trademark without explicit permission is prohibited. If you are interested in obtaining permission to use the TitleOTP trademark, please contact us for licensing opportunities. We reserve the right to grant or deny permission at our discretion, ensuring the trademark's use aligns with our brand and standards. For inquiries, please reach out to trademark@razititle.com.
+
+        Feedback and Support:
+        We are committed to the continuous improvement of TitleOTP. If you have any issues or require assistance, please reach out to us:
+
+        - support@titleotp.com
+        - www.titleotp.com
+
+        Your security and satisfaction are our top priorities. Thank you for choosing TitleOTP for your secure authentication needs.
         """
 
         aboutTextView.addHyperLinksToText(originalText: aboutTextView.text,
                                           hyperLinks:
-            ["Apache 2.0": "https://www.apache.org/licenses/LICENSE-2.0.html",
-             "website": "www.raziexchange.com/titleotp"])
+            ["Apache 2.0": "https://www.apache.org/licenses/LICENSE-2.0.html"])
     }
 }

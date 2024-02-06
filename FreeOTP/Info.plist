@@ -26,7 +26,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>org.razi.titleotp.otpauth</string>
+			<string>org.raziexchange.titleotp.otpauth</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>otpauth</string>
